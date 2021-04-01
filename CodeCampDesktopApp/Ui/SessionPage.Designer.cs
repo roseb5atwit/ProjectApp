@@ -48,22 +48,22 @@ namespace CodeCampApp
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(8, 91);
+            this.dataGridView1.Location = new System.Drawing.Point(6, 74);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 33;
-            this.dataGridView1.Size = new System.Drawing.Size(1243, 689);
+            this.dataGridView1.Size = new System.Drawing.Size(932, 560);
             this.dataGridView1.TabIndex = 0;
             // 
             // createNewSession
             // 
             this.createNewSession.BackColor = System.Drawing.Color.White;
             this.createNewSession.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.createNewSession.Location = new System.Drawing.Point(949, 55);
+            this.createNewSession.Location = new System.Drawing.Point(712, 45);
             this.createNewSession.Margin = new System.Windows.Forms.Padding(2);
             this.createNewSession.Name = "createNewSession";
-            this.createNewSession.Size = new System.Drawing.Size(225, 34);
+            this.createNewSession.Size = new System.Drawing.Size(169, 28);
             this.createNewSession.TabIndex = 1;
             this.createNewSession.Text = "Add New Session";
             this.createNewSession.UseVisualStyleBackColor = false;
@@ -73,25 +73,25 @@ namespace CodeCampApp
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Calibri", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(508, 45);
+            this.label1.Location = new System.Drawing.Point(381, 37);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(151, 46);
+            this.label1.Size = new System.Drawing.Size(121, 37);
             this.label1.TabIndex = 3;
             this.label1.Text = "Sessions";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // Session
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1358, 791);
+            this.ClientSize = new System.Drawing.Size(1018, 643);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.createNewSession);
             this.Controls.Add(this.dataGridView1);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Session";
             this.Text = "Session";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
